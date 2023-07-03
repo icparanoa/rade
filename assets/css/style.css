@@ -1,8 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Audiowide', cursive;
   color: #334240;
 }
 
@@ -22,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Audiowide', cursive;
 }
 
 /*--------------------------------------------------------------
@@ -81,7 +83,7 @@ h6 {
 #header .logo h1 a:hover {
   color: #425451;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Audiowide', cursive;
   font-weight: 600;
 }
 
@@ -102,6 +104,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
+  background: url(../img/menu/menu.png) no-repeat;
   padding: 0;
 }
 
@@ -123,7 +126,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Audiowide', cursive;
   font-size: 13px;
   font-weight: 500;
   color: #637f7b;
@@ -674,8 +677,10 @@ section {
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
-.services{
-  background: url(../img/fundo.png);
+#services {
+  background: url(../img/fundo.png) fixed no-repeat center;
+  position: relative;
+
 }
 
 .services .icon-box {
@@ -1264,7 +1269,7 @@ section {
 
 .contact {
   padding: 80px 0;
-  background: url(../img/menu/rodape.png)  no-repeat right bottom 10px;
+  background: url(../img/menu/rodape.png) no-repeat right bottom 10px;
   background-position: center center;
   background-size: cover;
   position: relative;
