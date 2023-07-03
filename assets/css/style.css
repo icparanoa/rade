@@ -674,6 +674,10 @@ section {
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
+.services{
+  background: url(../img/fundo.png);
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -1253,55 +1257,105 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
-.contact .infos {
+
+.contact {
+  padding: 80px 0;
+  background: url(../img/menu/rodape.png)  no-repeat right bottom 10px;
+  background-position: center center;
+  background-size: cover;
   position: relative;
-  z-index: 2;
+}
+
+.contact h2 {
+  color: black;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .contact .info {
-  padding: 60px;
-  background: #fff;
-  color: #334240;
-  text-align: center;
-  box-shadow: -5px -5px 40px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .contact .info i {
-  font-size: 48px;
-  color: #56e7d0;
-  margin-bottom: 15px;
+  font-size: 20px;
+  background: #096F89;
+  color: #ffffff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact .info h4 {
-  padding: 0;
-  margin: 0 0 10px 0;
-  font-size: 16px;
+  padding: 0 0 0 60px;
+  font-size: 22px;
   font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+  color: #000000;
 }
 
 .contact .info p {
-  font-size: 15px;
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #000000;
 }
 
-.contact .info-bg {
-  background: white;
+.contact .info a {
+  color: #000000;
 }
 
-.contact .contact-form-wrap {
-  box-shadow: 10px -5px 40px 0 rgba(0, 0, 0, 0.1);
-  background: #fff;
-  position: relative;
-  z-index: 1;
-  padding: 30px;
+.contact .info a:hover {
+  color: #5F5F5E;
+}
+
+
+.contact button {
+  background: #096F89;
+  border: 0;
+  padding: 10px 24px;
+  color: #ffffff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact button:hover {
+  background: #0D5471;
+  border: 0;
+  padding: 10px 24px;
+  color: #ffffff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
 }
 
 .contact .php-email-form {
   width: 100%;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
 }
 
 .contact .php-email-form .error-message {
@@ -1345,55 +1399,43 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form label {
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 5px;
-  color: #5f7c78;
-}
-
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  border-radius: 4px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
-  background-color: #1bbca3;
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #ffc451;
 }
 
 .contact .php-email-form input {
-  padding: 10px 15px;
+  height: 44px;
 }
 
 .contact .php-email-form textarea {
-  padding: 12px 15px;
+  padding: 10px 12px;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #fff;
-  border: 2px solid #1bbca3;
+  background: #096F89;
+  border: 0;
   padding: 10px 24px;
-  color: #1bbca3;
+  color: #ffffff;
   transition: 0.4s;
+  border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #1bbca3;
-  color: #fff;
-}
-
-@media (max-width: 1024px) {
-  .contact .info {
-    padding: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .contact .php-email-form {
-    padding: 15px 0 0 0;
-  }
+  background: #0D5471;
+  border: 0;
+  padding: 10px 24px;
+  color: #ffffff;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 
 @keyframes animate-loading {
