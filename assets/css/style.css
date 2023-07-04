@@ -110,7 +110,6 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  background: url(../img/menu/menu.png) no-repeat;
   padding: 0;
 }
 
@@ -135,7 +134,7 @@ h6 {
   font-family: 'Audiowide', cursive;
   font-size: 13px;
   font-weight: 500;
-  color: #637f7b;
+  color: var(--azul-escuro);
   white-space: nowrap;
   transition: 0.3s;
   letter-spacing: 0.3px;
@@ -153,7 +152,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #1bbca3;
+  color: var(--amarelo);
 }
 
 .navbar .getstarted,
@@ -451,7 +450,7 @@ h6 {
 }
 
 #hero .carousel-indicators .active {
-  background-color: #1bbca3;
+  background-color: var(--azul-claro);
 }
 
 #hero .btn-get-started {
@@ -467,11 +466,11 @@ h6 {
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #1bbca3;
+  border: 2px solid var(--amarelo);
 }
 
 #hero .btn-get-started:hover {
-  background: #1bbca3;
+  background: var(--amarelo);
   color: #fff;
   text-decoration: none;
 }
