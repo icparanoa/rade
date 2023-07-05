@@ -3,20 +3,20 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-:root{
-  --amarelo:#FEBA35;
+:root {
+  --amarelo: #FEBA35;
   --azul-escuro: #151C48;
   --azul-claro: #174580;
 }
 
 body {
-  font-family: 'Audiowide', cursive;
+  font-family: "Poppins", sans-serif;
   color: #334240;
 }
 
 a {
   text-decoration: none;
-  color: var(--amarelo);
+  color: var(--azul-escuro);
 }
 
 a:hover {
@@ -40,10 +40,10 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #1bbca3;
+  background: var(--amarelo);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -52,13 +52,19 @@ h6 {
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: var(--azul-escuro);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #21dfc2;
+  background: var(--azul-escuro);
   color: #fff;
+}
+
+.back-to-top i:hover {
+  font-size: 24px;
+  color: var(--amarelo);
+  line-height: 0;
 }
 
 .back-to-top.active {
@@ -577,7 +583,7 @@ section {
   font-weight: 500;
   font-size: 24px;
   color: #58716d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Audiowide', cursive;
 }
 
 .about .content ul {
@@ -810,13 +816,13 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #1bbca3;
+  border: 2px solid var(--amarelo);
   color: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #1bbca3;
-  border: 2px solid #1bbca3;
+  background: var(--amarelo);
+  border: 2px solid var(--amarelo);
 }
 
 /*--------------------------------------------------------------
@@ -933,7 +939,7 @@ section {
   font-weight: 500;
   font-size: 18px;
   padding-right: 10px;
-}   
+}
 
 .info-box .accordion-list i {
   font-size: 24px;
@@ -1302,7 +1308,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #096F89;
+  background: var(--azul-escuro);
   color: #ffffff;
   float: left;
   width: 44px;
@@ -1465,8 +1471,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #FEBA35;
-  padding: 0 0 30px 0;
+  background-image: url("../img/menu/rodape.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding: 0 0 5px 0;
   color: #151C48;
   font-size: 14px;
 }
@@ -1482,7 +1490,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1490,18 +1498,19 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #151C48;
+  color: var(--azul-escuro);
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 23px;
+  font-weight: 600;
   display: inline-block;
-  background: #58716d;
-  color: #151C48;
+  background: var(--azul-escuro);
+  color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1513,7 +1522,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1bbca3;
+  background: var(--azul-claro);
   color: #fff;
   text-decoration: none;
 }
@@ -1555,13 +1564,14 @@ section {
 
 #footer .footer-top .footer-links ul a {
   color: var(--azul-escuro);
+  font-weight: 500;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #40e4ca;
+  color: var(--azul-claro);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1598,6 +1608,7 @@ section {
 }
 
 #footer .copyright {
+  background: url(../img/2.png);
   text-align: center;
   padding-top: 30px;
 }
