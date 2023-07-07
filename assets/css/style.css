@@ -859,14 +859,10 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid var(--amarelo);
-  color: #fff;
+  background: var(--amarelo);
+  color: var(--azul-escuro);
 }
 
-.cta .cta-btn:hover {
-  background: var(--amarelo);
-  border: 2px solid var(--amarelo);
-}
 
 /*--------------------------------------------------------------
 # More Services
@@ -1040,6 +1036,7 @@ section {
     padding-bottom: 30px;
   }
 }
+
 /*--------------------------------------------------------------
 # Our Portfolio
 --------------------------------------------------------------*/
