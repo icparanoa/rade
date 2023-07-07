@@ -209,7 +209,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1bbca3;
+  color: var(--amarelo);
 }
 
 .navbar .dropdown:hover>ul {
@@ -726,7 +726,6 @@ section {
 --------------------------------------------------------------*/
 #services {
   position: relative;
-
 }
 
 .services .icon-box {
@@ -931,10 +930,7 @@ section {
 }
 
 .info-box .img {
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 400px;
 }
 
 .info-box .accordion-list {
