@@ -19,15 +19,12 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -128,41 +125,50 @@
     </section><!-- End About Us Section -->
 
 
-
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container">
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
 
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="./assets/img/clients/client-1.png" class="img-fluid" alt="">
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/cliente/11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/12.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/13.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/14.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/15.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/16.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/17.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/18.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/19.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/20.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/cliente/21.png" class="img-fluid" alt=""></div>
           </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Cliens Section -->
+    </section><!-- End Clients Section -->
+
+
+    <!-- ======= Cta Section ======= -->
+    <section style="background: #a09f9f;" class="cta">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5">
+            <img src="./assets/img/mapa.png" alt="">
+          </div>
+          <div class="col-lg-6 text-center text-lg-start">
+            <br>
+            <h3 class="text-center">Area de Atuação</h3>
+            <p style="font-size: 19px;">A RADE Engenharia é uma empresa nova no mercado que atua de Norte à Sul do
+              Brasil. E tem como principal
+              objetivo a satisfação de seus clientes.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
 
     <!-- ======= Our Services Section ======= -->
     <section id="services" class="services">
@@ -188,6 +194,7 @@
               </p>
               <br>
               <br>
+              <br>
             </div>
           </div>
 
@@ -200,7 +207,7 @@
                 <li>Gesso e Drywall</li>
                 <li>Recuperação e Pintura de Fachadas</li>
                 <li>Reformas prediais e Industriais</li>
-                <li>Mudança de Layout corporativo</li>
+                <li>Layout corporativo</li>
                 <li>Condomínio residenciais</li>
               </ul>
               </p>
@@ -222,6 +229,24 @@
                 <li>Splits</li>
               </ul>
               </p>
+              <br>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="icon-box">
+              <div class="icon"><img id="img" src="./assets/img/icon/predial.png" alt=""></div>
+              <h4 class="title"><a href="./servicos/predial.html">Manutenção Predial Volante</a></h4><br>
+              <p class="description">
+              <ul>
+                <li>Sistema hidráulico</li>
+                <li>Sistema elétrico</li>
+                <li>Sistema de climatização</li>
+                <li>Segurança</li>
+                <li>Controle de risco de incêndios</li>
+              </ul>
+              </p>
+              <br>
             </div>
           </div>
 
@@ -230,6 +255,23 @@
       </div>
     </section><!-- End Our Services Section -->
 
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/parceiros/24.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/parceiros/25.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/parceiros/26.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/parceiros/27.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/parceiros/28.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -298,6 +340,21 @@
       </div>
     </section><!-- End Contact Section -->
 
+    <!-- ======= Cta Section ======= -->
+    <section class="cta">
+      <div class="container">
+
+        <div class="text-center">
+          <h3 style="color: #1a294a; font-size: 25px;">Manutenção Emergencial 24h por dia 7 dias por semana clique para
+            abrir um chamado Emergencial</h3>
+          <a class="cta-btn"
+            href="https://app.produttivo.com.br/r/09dfa49b-85a4-4620-8074-7022c43aa802?t=ytqKrVHhRNHmcjhWsQX-TZWHL1HEyb19ZLIbU4n1TGMSNCE-Vy1E_w">Clique
+            Aqui!</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -338,6 +395,8 @@
               <li><i class="bx bx-chevron-right"></i> <a href="./servicos/construcao.html">Construção Civil e
                   Reforma</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./servicos/ar-condicionado.html">Ar Condicionado</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./servicos/predial.html">Manutenção Predial Volante</a>
+              </li>
             </ul>
           </div>
 
@@ -359,7 +418,6 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
