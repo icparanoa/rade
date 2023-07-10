@@ -1658,3 +1658,17 @@ section {
   font-size: 13px;
   color: var(--azul-escuro);
 }
+
+@media (max-width: 992px) {
+  #footer .credits {
+    color: #ffffff;
+  }
+
+  #footer .credits a {
+    color: #ffffff;
+  }
+
+  #footer .credits a:hover {
+    color: var(--amarelo);
+  }
+}
