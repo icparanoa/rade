@@ -1318,10 +1318,9 @@ section {
 
 .contact {
   padding: 80px 0;
-  background: url(../img/fundo.png) fixed no-repeat center;
-  background-position: center center;
+  background: url("../img/fundo.png") fixed no-repeat center;
+  background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .contact h2 {
@@ -1340,6 +1339,7 @@ section {
 .contact .info {
   width: 100%;
 }
+
 
 .contact .info i {
   font-size: 20px;
@@ -1472,24 +1472,6 @@ section {
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #096F89;
-  border: 0;
-  padding: 10px 24px;
-  color: #ffffff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #0D5471;
-  border: 0;
-  padding: 10px 24px;
-  color: #ffffff;
-  transition: 0.4s;
-  border-radius: 4px;
 }
 
 @keyframes animate-loading {
